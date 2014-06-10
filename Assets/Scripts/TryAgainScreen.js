@@ -12,7 +12,7 @@ function OnGUI () {
 	if (GUI.Button (Rect (290,309,220,60), "")) {
 		Application.LoadLevel("Game");
 	}
-	if (GUI.Button (Rect (290,392,220,58), "")) {
+	if ((GUI.Button (Rect (290,392,220,58), ""))||(Input.GetKey(KeyCode.Escape))) {
 		 Application.Quit();
 	}
 }
