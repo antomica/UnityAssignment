@@ -24,7 +24,7 @@ if ((Input.GetMouseButtonDown(0)) && (ammocount > 0))
 		// Give the cloned object an initial velocity along the current 
 		// object's Z axis
 		//clone.velocity = transform.Translate(mousePos * 10);	
-        clone.AddForce(barrel.forward * 5000);
+        clone.AddForce(barrel.forward * 6000);
 	}
 	
 	if ((Input.GetMouseButtonDown(1)) && (ammocount > 0))
