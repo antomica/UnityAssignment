@@ -10,7 +10,7 @@ public var EnemyPrefab : Rigidbody;
 
 public var SpecialPrefab : Rigidbody;
 
-private var Health : int = 10;
+private var Health : int = 12;
 private var Shield : int = 10;
 public var Ammo : int = 100;
 public var Special : int = 2;
